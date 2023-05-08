@@ -33,4 +33,4 @@ Essa função é um exemplo de como executar um aplicativo Streamlit no terminal
 https://user-images.githubusercontent.com/130613291/236697522-35d04911-9d8d-47d6-8977-a08412005dc2.mp4
 
 # Acessar o Streamlit Marketing-Bancario
-[Clique aqui](http://localhost:8501/)
+[Clique aqui](https://tklebis-marketing-bancario-projeto-final-gvovxm.streamlit.app/)
