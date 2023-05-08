@@ -63,7 +63,7 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("../img/Bank-Branding.jpg")
+    image = Image.open("https://www.socialtoaster.com/wp-content/uploads/2018/10/Finance-and-Retail-Banking-Blog-Post.jpg")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
