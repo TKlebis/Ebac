@@ -11,7 +11,7 @@ import subprocess
 
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "xlsxwriter"])
-#subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
+subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
 import xlsxwriter 
 
 # Set no tema do seaborn para melhorar o visual dos plots
