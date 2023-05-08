@@ -66,7 +66,7 @@ def main():
    
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("C:\Users\USER\Desktop\Ciencia de Dados\aula\modulo 19\Nova pasta\py\Bank-Branding.jpg")
+    image = Image.open("C:/Users/USER/Desktop/Ciencia de Dados/aula/modulo 19/Nova pasta/py/Bank-Branding.jpg")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
