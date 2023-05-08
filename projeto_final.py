@@ -8,6 +8,7 @@ from PIL                 import Image
 from io                  import BytesIO
 import sys
 import subprocess
+import xlsxwriter
 
 
 #subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
