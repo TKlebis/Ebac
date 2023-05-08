@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 from PIL                 import Image
 from io                  import BytesIO
 
-pip install seaborn
+import subprocess
+
+subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
   
 
 # Set no tema do seaborn para melhorar o visual dos plots
