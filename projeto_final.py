@@ -1,7 +1,7 @@
 # Imports
 import pandas            as pd
 import streamlit         as st
-pip install seaborn
+
 import seaborn           as sns
 import matplotlib.pyplot as plt
 from PIL                 import Image
