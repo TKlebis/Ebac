@@ -6,7 +6,7 @@ import seaborn           as sns
 import matplotlib.pyplot as plt
 from PIL                 import Image
 from io                  import BytesIO
-
+import sys
 import subprocess
 
 subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
