@@ -10,7 +10,7 @@ import sys
 import subprocess
 
 
-subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
+#subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
   
 
 # Set no tema do seaborn para melhorar o visual dos plots
