@@ -10,7 +10,7 @@ import sys
 import subprocess
 import xlsxwriter
 
-
+!{sys.executable} -m pip install xlsxwriter
 #subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
   
 
