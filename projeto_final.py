@@ -8,11 +8,11 @@ from PIL                 import Image
 from io                  import BytesIO
 import sys
 import subprocess
-import xlsxwriter
+
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "xlsxwriter"])
 #subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
-  
+import xlsxwriter 
 
 # Set no tema do seaborn para melhorar o visual dos plots
 custom_params = {"axes.spines.right": False, "axes.spines.top": False}
