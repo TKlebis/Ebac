@@ -8,8 +8,7 @@ from PIL                 import Image
 from io                  import BytesIO
 import sys
 import subprocess
-import urllib.request
-import io
+
 
 subprocess.run([sys.executable, "-m", "pip", "install", "seaborn"])
   
@@ -64,12 +63,10 @@ def main():
     st.write('# Telemarketing analisys')
     st.markdown("---")
     
-    url = "https://www.socialtoaster.com/wp-content/uploads/2018/10/Finance-and-Retail-Banking-Blog-Post.jpg"
-    with urllib.request.urlopen(url) as url_response:
-    image_bytes = io.BytesIO(url_response.read())
+   
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open(image_bytes)
+    image = Image.open("C:\Users\USER\Desktop\Ciencia de Dados\aula\modulo 19\Nova pasta\py\Bank-Branding.jpg")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
